@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EvaluacionLucky_Paucarpura.props" />
+</Project>

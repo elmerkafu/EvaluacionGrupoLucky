@@ -1,0 +1,14 @@
+CREATE TABLE Clientes (
+    idCliente INT PRIMARY KEY IDENTITY,
+    nombresCliente VARCHAR(100) NOT NULL,
+    apellidosCliente VARCHAR(100) NOT NULL,
+    correo VARCHAR(100),
+    telefono VARCHAR(20)
+);
+
+INSERT INTO Clientes (nombresCliente, apellidosCliente, correo, telefono) VALUES
+('Ana', 'Martínez', 'ana.martinez@example.com', '555-0101'),
+('Carlos', 'Hernández', 'carlos.hernandez@example.com', '555-0102'),
+('Lucía', 'Gómez', 'lucia.gomez@example.com', '555-0103'),
+('David', 'Ramírez', 'david.ramirez@example.com', '555-0104'),
+('Sofía', 'Pérez', 'sofia.perez@example.com', '555-0105');
